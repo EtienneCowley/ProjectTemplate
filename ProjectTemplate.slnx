@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ProjectTemplate.Blazor/ProjectTemplate.Blazor.csproj" />
+  <Project Path="ProjectTemplate.Features.Tests/ProjectTemplate.Features.Tests.csproj" />
+  <Project Path="ProjectTemplate.Features/ProjectTemplate.Features.csproj" />
+</Solution>
