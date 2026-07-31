@@ -1,0 +1,15 @@
+<Window x:Class="ProjectTemplate.BlazorShell.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:webView="clr-namespace:Microsoft.AspNetCore.Components.WebView.Wpf;assembly=Microsoft.AspNetCore.Components.WebView.Wpf"
+        xmlns:features="clr-namespace:ProjectTemplate.Features.Components;assembly=ProjectTemplate.Features"
+        Title="ProjectTemplate" Width="1200" Height="800">
+    <Grid>
+        <webView:BlazorWebView HostPage="wwwroot/index.html">
+            <webView:BlazorWebView.RootComponents>
+                <webView:RootComponent Selector="#app" 
+                                       ComponentType="{x:Type features:App}" />
+            </webView:BlazorWebView.RootComponents>
+        </webView:BlazorWebView>
+    </Grid>
+</Window>
