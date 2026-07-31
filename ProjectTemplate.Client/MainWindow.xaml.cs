@@ -1,6 +1,6 @@
 using System.Windows;
 
-namespace ProjectTemplate.BlazorShell;
+namespace ProjectTemplate.Client;
 
 public partial class MainWindow : Window
 {
